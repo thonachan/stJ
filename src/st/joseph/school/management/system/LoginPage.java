@@ -177,7 +177,7 @@ public class LoginPage extends javax.swing.JFrame {
         String secret= sc.getText();
         
         if(secret.equals("@*#")){
-           JOptionPane.showMessageDialog(this, "The Username and Password is 'Stjoseph & stjosephpri, respectively'");
+           JOptionPane.showMessageDialog(this, "The Username and Password is 'Admin & Adminuser, respectively'");
         }
     }//GEN-LAST:event_jButton2ActionPerformed
 

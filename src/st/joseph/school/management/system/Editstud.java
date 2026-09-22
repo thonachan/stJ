@@ -134,9 +134,9 @@ public class Editstud extends javax.swing.JFrame {
         jLabel1.setText("UPDATION OF RECORDS ");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 50, -1, -1));
 
-        jLabel11.setBackground(new java.awt.Color(0, 102, 102));
+        jLabel11.setBackground(new java.awt.Color(255, 0, 51));
         jLabel11.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel11.setForeground(new java.awt.Color(255, 0, 51));
         jLabel11.setText("BACK");
         jLabel11.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {

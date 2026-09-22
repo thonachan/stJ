@@ -32,6 +32,7 @@ public class feeSubmission extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel10 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -51,7 +52,10 @@ public class feeSubmission extends javax.swing.JFrame {
         name = new javax.swing.JTextField();
         month = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/gold.jpg"))); // NOI18N
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -83,11 +87,9 @@ public class feeSubmission extends javax.swing.JFrame {
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(212, 442, -1, -1));
 
         id.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
-        id.setForeground(null);
         getContentPane().add(id, new org.netbeans.lib.awtextra.AbsoluteConstraints(343, 208, 196, -1));
 
         lf.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
-        lf.setForeground(null);
         lf.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 lfActionPerformed(evt);
@@ -96,16 +98,13 @@ public class feeSubmission extends javax.swing.JFrame {
         getContentPane().add(lf, new org.netbeans.lib.awtextra.AbsoluteConstraints(343, 439, 196, -1));
 
         mf.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
-        mf.setForeground(null);
         getContentPane().add(mf, new org.netbeans.lib.awtextra.AbsoluteConstraints(343, 568, 196, -1));
 
         sf.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
-        sf.setForeground(null);
         getContentPane().add(sf, new org.netbeans.lib.awtextra.AbsoluteConstraints(343, 502, 196, -1));
 
-        jButton1.setBackground(new java.awt.Color(255, 204, 51));
+        jButton1.setBackground(new java.awt.Color(153, 0, 51));
         jButton1.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("PAY");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -120,7 +119,7 @@ public class feeSubmission extends javax.swing.JFrame {
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(821, 0, 379, 680));
 
         jLabel6.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setForeground(new java.awt.Color(255, 0, 51));
         jLabel6.setText("BACK");
         jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -130,7 +129,6 @@ public class feeSubmission extends javax.swing.JFrame {
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(343, 637, -1, -1));
 
         af.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
-        af.setForeground(null);
         getContentPane().add(af, new org.netbeans.lib.awtextra.AbsoluteConstraints(343, 381, 196, -1));
 
         jLabel7.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
@@ -144,11 +142,9 @@ public class feeSubmission extends javax.swing.JFrame {
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(212, 211, 26, -1));
 
         name.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
-        name.setForeground(null);
         getContentPane().add(name, new org.netbeans.lib.awtextra.AbsoluteConstraints(343, 261, 196, -1));
 
         month.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
-        month.setForeground(null);
         getContentPane().add(month, new org.netbeans.lib.awtextra.AbsoluteConstraints(343, 324, 196, -1));
 
         jLabel9.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
@@ -156,9 +152,9 @@ public class feeSubmission extends javax.swing.JFrame {
         jLabel9.setText("Student Name");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(212, 264, -1, -1));
 
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/gold.jpg"))); // NOI18N
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(-30, 40, -1, -1));
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Screenshot (173).png"))); // NOI18N
+        jLabel11.setText("jLabel11");
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(-20, -190, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -277,6 +273,7 @@ public class feeSubmission extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;

@@ -32,6 +32,7 @@ public class reportcard extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel18 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         text = new javax.swing.JTextPane();
         jLabel1 = new javax.swing.JLabel();
@@ -64,8 +65,10 @@ public class reportcard extends javax.swing.JFrame {
         jLabel17 = new javax.swing.JLabel();
         bus = new javax.swing.JTextField();
         his = new javax.swing.JTextField();
-        jLabel18 = new javax.swing.JLabel();
         frm = new javax.swing.JComboBox<>();
+        jLabel19 = new javax.swing.JLabel();
+
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/resu.jpg"))); // NOI18N
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -83,53 +86,66 @@ public class reportcard extends javax.swing.JFrame {
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(827, 0, 391, 833));
 
         jLabel1.setFont(new java.awt.Font("Serif", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("REPORT");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 16, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("ID");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 57, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Roll Number");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 98, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Name");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 139, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Form");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 181, -1, -1));
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Marks:");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 246, 78, -1));
 
         jLabel7.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("English");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 280, -1, -1));
 
         jLabel8.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Kiswahili");
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 324, -1, -1));
 
         jLabel9.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Physics");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 414, -1, -1));
 
         jLabel10.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("Biology");
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 456, -1, -1));
 
         jLabel11.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText("CRE");
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 497, -1, -1));
 
         jLabel12.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setText("Geography");
         getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 532, -1, -1));
 
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("......................................................................................................");
         getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 210, -1, -1));
 
@@ -165,11 +181,12 @@ public class reportcard extends javax.swing.JFrame {
         getContentPane().add(d, new org.netbeans.lib.awtextra.AbsoluteConstraints(299, 51, 225, -1));
 
         geo.setFont(new java.awt.Font("Dutch801 Rm BT", 0, 16)); // NOI18N
-        getContentPane().add(geo, new org.netbeans.lib.awtextra.AbsoluteConstraints(284, 529, 160, -1));
+        getContentPane().add(geo, new org.netbeans.lib.awtextra.AbsoluteConstraints(284, 529, 160, 30));
 
         bio.setFont(new java.awt.Font("Dutch801 Rm BT", 0, 16)); // NOI18N
         getContentPane().add(bio, new org.netbeans.lib.awtextra.AbsoluteConstraints(284, 453, 160, -1));
 
+        jButton1.setBackground(new java.awt.Color(153, 0, 51));
         jButton1.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
         jButton1.setText("Submit");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -177,19 +194,20 @@ public class reportcard extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 620, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 610, -1, -1));
 
         jLabel14.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(255, 153, 0));
+        jLabel14.setForeground(new java.awt.Color(255, 0, 0));
         jLabel14.setText("BACK");
         jLabel14.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel14MouseClicked(evt);
             }
         });
-        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(732, 23, -1, -1));
+        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 620, -1, -1));
 
         jLabel15.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
         jLabel15.setText("Maths");
         getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 366, -1, -1));
 
@@ -197,10 +215,12 @@ public class reportcard extends javax.swing.JFrame {
         getContentPane().add(math, new org.netbeans.lib.awtextra.AbsoluteConstraints(284, 363, 160, -1));
 
         jLabel16.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
         jLabel16.setText("History");
         getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 574, -1, -1));
 
         jLabel17.setFont(new java.awt.Font("Dutch801 Rm BT", 1, 18)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setText("Business");
         getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 615, -1, -1));
 
@@ -215,12 +235,13 @@ public class reportcard extends javax.swing.JFrame {
         });
         getContentPane().add(his, new org.netbeans.lib.awtextra.AbsoluteConstraints(284, 571, 160, -1));
 
-        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/resu.jpg"))); // NOI18N
-        getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 230, -1, -1));
-
         frm.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         frm.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", " " }));
         getContentPane().add(frm, new org.netbeans.lib.awtextra.AbsoluteConstraints(299, 177, 225, -1));
+
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Screenshot (173).png"))); // NOI18N
+        jLabel19.setText("jLabel19");
+        getContentPane().add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(-60, -210, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -399,6 +420,7 @@ public class reportcard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
